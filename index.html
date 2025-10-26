@@ -34,10 +34,6 @@
 			box-shadow: 0 0 20px rgba(0,0,0,0.2);
 			border-radius:12px;
 			}
-			
-			main{
-			flex:1;
-			}
 
 			/*navigation*/
 			
@@ -65,6 +61,7 @@
 			color: white;
 			text-decoration:none;
 			margin-left:20px;
+			padding-right:50px;
 			font-size:20px;
 			transition:color 0.3s;
 			}
@@ -132,7 +129,7 @@
 			
 			/*modules*/
 			
-			.learn{
+			.learn-btn{
             text-align: center;
             margin-top: 50px;
             padding-top: 20px;
@@ -141,39 +138,23 @@
 
 			
 			.btn{
-            display: inline-block;
+            display:inline-block;
             text-decoration: none;
-            color: #f4f4f4;
-            padding: 15px 15px;
-            margin: 0 5%;
-            border-radius: 8px;
+			background-color:#4A90E2;
+            box-shadow:0 5px 15px rgba(74, 144, 226, 0.4);
+            color:#f4f4f4;
+            padding:15px 15px;
+            margin:0 5%;
+            border-radius: 10px;
             font-weight: bold;
-            transition:transform 0.3s, box-shadow 0.3s;
+            transition:color 0.5s;
 			}
 			
-			.btn.one{
-			background-color:#4A90E2;
-            box-shadow:0 5px 15px rgba(74, 144, 226, 0.4);
-			}
-		
-		
-			.btn.one:hover{
-            transform: translateY(-3px);
-            box-shadow: 0 8px 20px rgba(74, 144, 226, 0.6);
+			.btn:hover{
+            color:#8B0000;
+			border-radius:10px;
 			}
 			
-			.btn.two{
-			background-color:#4A90E2;
-            box-shadow:0 5px 15px rgba(74, 144, 226, 0.4);
-			}
-			
-			.btn.two:hover{
-            transform: translateY(-3px);
-            box-shadow: 0 8px 20px rgba(74, 144, 226, 0.6);
-			}
-
-
-	
 
 			</style>	
 	</head>
@@ -185,14 +166,14 @@
 			<h1 class="logo">Digital Hub</h1>
 
 			<nav>
-				<a href="AboutUs.html">About</a>
-				<a href="Contact.html">Contact</a>
+				<a href="AboutUs.html">About Us</a>
+				<a href="Contact.html">Contact Us</a>
 			</nav>
 		</div>		
 <main>
 
 <div class="wraper">
-	<h1 style="text-align: center; margin: 40px auto; border-bottom: 2px solid #94A3B8;">DIGITEL LITERACY</h1>
+	<h1 style="text-align: center; margin: 40px auto; border-bottom: 2px solid #94A3B8;">DIGITAL LITERACY</h1>
 		<div class="content">
 			<div class="text">
 				<h2>What is Digital Literacy</h2>
@@ -217,9 +198,9 @@
 		</div>
 
 
-<div class="learn">
-	<a href="Modules.html" class="btn one">Learning Modules</a>
-	<a href="" class="btn two">Downloaderble Resources</a>
+<div class="learn-btn">
+	<a href="Modules.html" class="btn">Learning Modules</a>
+	<a href="" class="btn">Downloaderble Resources</a>
 	
 </div>
 
