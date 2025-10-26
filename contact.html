@@ -9,12 +9,12 @@
 <style>
 	
 	* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
 	}
 			
-	/*body*/
+	/*body-html*/
 			
 	body{		
 	display:flex;
@@ -22,8 +22,13 @@
 	overflow-x:hidden;
 	padding-top:100px;
 	font-family:Arial,sans-serif;
+	height:100%;
 	}
-
+	
+	html{
+	height:100%;
+	}
+	
 	/*wraper*/
 	.wraper{
 	width:100%;
@@ -33,10 +38,6 @@
 	margin:auto;
 	box-shadow: 0 0 20px rgba(0,0,0,0.2);
 	border-radius:12px;
-	}
-			
-	main{
-	flex:1;
 	}
 			
 	/*navigation*/
@@ -64,9 +65,10 @@
 	}
 			
 	nav a{					
-	color: white;
+	color:white;
 	text-decoration:none;
 	margin-left:20px;
+	padding-right:50px;
 	font-size:20px;
 	transition:color 0.3s;
 	}
@@ -79,7 +81,14 @@
 	flex:1;
 	}
 	
-	
+	h2{
+	font-size:30px;
+	font-weight:bold;
+	color:#1E293B;
+	padding-top:20px;
+	text-align:center;
+	}
+
 	label{
 	display:block;
 	margin-top:8px;
@@ -113,7 +122,12 @@
 	background-color:#4d4d4d;
 	}
 	
-
+	iframe{
+	padding-top:20px;
+	padding-bottom:20px;
+	width:80%;
+	height:500px;
+	}
 	
 	/*footer*/
 			
@@ -134,20 +148,19 @@
 	
 		<div class="header1">
 		
-				<h1>Digital Hub</h1>
+				<h1>DIGITAL HUB</h1>
 
 			<nav>
 				<a href="index.html">Home</a>
-				<a href="Contact.html">Contact</a>
 			</nav>
 		</div>	
-<main>
+
 
 <div class="wraper">
 
-<h1 style="color:#1E293B; font-family=georgia; margin-bottom:50px;"><center>Contact Us</center></h2></font>
+	<h1 style="color:#1E293B; margin-bottom:50px; border-bottom:1px dashed black;"><center>Contact Us</center></h2></font>
 
-<p style="font-family:arial; font-size:23px; margin-bottom:30px; color:#333446;">Please inform if you have questions, feedback or suggesions on our website.<br>use below area to contact us.</p>
+		<p style="font-family:arial; font-size:23px; margin-bottom:30px; color:#333446;">Please inform if you have questions, feedback or suggesions on our website.<br>use below area to contact us.</p>
 
 
 <form>
@@ -166,18 +179,22 @@
 <br>
 <br>
 
-<font style="font-size:25px; font-color:#1e1e1e;">Or Write Email To Us</font><br>
+	<font style="font-size:25px; font-color:#1e1e1e;">Or Write Email To Us</font><br>
 
 <pre>
 
 </pre>
 
 <hr>
-<p style="font-family:arial; font-size:18px;">Email : <b>digitalhublr@gmail.com</p></b>
+	<p style="font-family:arial; font-size:18px;">Email : <b>digitalhublr@gmail.com</p></b>
 
+
+
+
+<h2>Our Location</h2>
+<center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1099.9139922939723!2d80.6338058794401!3d7.290249700856569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae36629b7d37e43%3A0xaab2ab15b04262bf!2sSLIATE!5e0!3m2!1sen!2slk!4v1761460768860!5m2!1sen!2slk"width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center>
 
 </div>
-
 <pre>
 
 
@@ -185,7 +202,6 @@
 
 </pre>
 
-</main>
 
 <!--footer-->
 
